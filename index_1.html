@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Sort Visualizer</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: OnePage - v2.2.2
+  * Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="index.html">Sort Alogviz</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+ 
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+  <li> <button type="button" class="get-started-btn" id="getarray">Get New Array</button></li>
+        <li><span id="size">Size
+      <input id="arr_size" type="range" min="30" max="100" value="40">
+      </span></li>
+      <li><span id="speed">Speed
+      <input id="speed_input" type="range" min="20" max="300" value=70>
+      </span></li>
+  
+       
+
+          <li> <button type="button" class="get-started-btn" id="bubble">Bubble Sort</button></li>
+          
+          <li> <button type="button" class="get-started-btn" id="merge">Merge Sort</button></li>
+          
+          <li> <button type="button" class="get-started-btn" id="insertion_sort">Insertion Sort</button></li>
+          
+          <li> <button type="button" class="get-started-btn" id="selection">Selection Sort</button></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+  <body>
+    <div id="time_complexity" class="complexities"><b>Algorithm</b><br></br>Time Comlexity<br></br>Best case:<br></br>Average Case:<br></br>Worst Case:<br></br></div>
+
+    <div id="bars" class="a_container"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="algorithms/sort_main.js"></script>
+    <script src="algorithms/bubble.js"></script>
+    <script src="algorithms/insertion.js"></script>
+    <script src="algorithms/merge.js"></script>
+    <script src="algorithms/selection.js"></script>
+</body>
+</html>
