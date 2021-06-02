@@ -23,3 +23,5 @@ Web app built to visualize some of the popular sorting algorithms for better und
 # Selection Sort
 ![2021-06-03 00-27-35](https://user-images.githubusercontent.com/52864561/120539336-1d46ec80-c405-11eb-8704-c270bb7a1bec.gif)
 
+<b>Note</b>:Project is not fully finished. May contain bugs. Feel free to let me know :p
+
