@@ -8,7 +8,6 @@ Web app built to visualize some of the popular sorting algorithms for better und
   * Javascript
   * HTML
   * CSS
-  * 
  <h2>Deployed at https://sort-algo-visualizer-ara.herokuapp.com/ </h2>
  
 # Quick Demo:
